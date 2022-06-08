@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TweetsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,7 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-use App\Http\Controllers\twitController;
+
 Route::resources([
     'posts' => twitController::class,
 ]);
