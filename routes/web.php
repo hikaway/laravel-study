@@ -20,5 +20,5 @@ Route::get('/', function () {
 
 
 Route::resources([
-    'posts' => twitController::class,
+    'tweets' => TweetsController::class,
 ]);
