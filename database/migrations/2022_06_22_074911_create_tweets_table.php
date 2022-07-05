@@ -13,9 +13,9 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('content', function (Blueprint $table) {
+        Schema::create('tweets', function (Blueprint $table) {
             $table->id();
-            $table->string('text');
+            $table->string('content');
             $table->timestamp();
         });
     }

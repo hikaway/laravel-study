@@ -18,8 +18,8 @@ class TweetsSeeder extends Seeder
     public function run()
     {
         //
-        DB::table('content')->insert([
-            'text' => 'テストツイート1',
+        DB::table('tweets')->insert([
+            'content' => 'テストツイート1',
         ]);
     }
 }
